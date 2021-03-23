@@ -1,0 +1,26 @@
+/* Estilos para menus */
+.menu ul {
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+.menu li {
+	margin: 5px;
+}
+
+.menu a {
+	border: 1px solid black;
+	display: block;
+	text-decoration: none;
+	background-color: cyan;
+	color: black;
+	text-shadow: -1px 1px white;
+}
+
+.menu a:hover,
+.menu #atual {
+	background-color: grey;
+	color: white;
+	text-shadow: -1px 1px black;
+}

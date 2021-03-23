@@ -1,0 +1,51 @@
+p {
+	margin-left: 2em;
+}
+
+.titulo {
+	grid-area: titulo;
+}
+
+.menu {
+	grid-area: menu;
+}
+
+.conteudo {
+	grid-area: conteudo;
+}
+
+table,
+td {
+	border-collapse: collapse;
+	border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+	width: 25%;
+}
+
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+tr p:first-child {
+	padding-top: 1rem;
+}
+tr p:last-child {
+	padding-bottom: 1rem;
+}
+
+.rodape {
+	grid-area: rodape;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'titulo titulo titulo titulo titulo titulo'
+		'menu conteudo conteudo conteudo conteudo conteudo'
+		'rodape rodape rodape rodape rodape rodape';
+	grid-gap: 10px;
+	padding: 10px;
+}
